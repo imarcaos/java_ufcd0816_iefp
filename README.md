@@ -12,3 +12,7 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Exercício 1 - Print Hello world (teste de instalação)
     - Exercício 2 - Números Inteiros, cálculos e print
     - Exercício 3 - Números Floats, double, cálculos e print
+
+- Aula 2 -Tipos primitivos, For, While
+    - Exercício 4 - Tipos primitivos, Operadores Booleanos
+    - Exercício 5 - Loop For e While + tarefa números decrescentes de 10 entre 100 e -100
