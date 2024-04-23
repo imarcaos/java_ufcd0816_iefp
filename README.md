@@ -20,3 +20,6 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 3 - Manipulação de Variáveis
     - Exercício 5 - Mais um exemplo de loop para cáculo da raiz quadrada através do for
     - Exercício 6 - Manipulação de Variáveis
+    - Exercício 7 - Strings, tarefa substring espaço em branco do nome e sobrenome upperCase primeira letra
+    - Exercício 8 - InputStreamReader
+
