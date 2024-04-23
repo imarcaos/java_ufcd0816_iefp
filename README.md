@@ -16,3 +16,7 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 2 -Tipos primitivos, For, While
     - Exercício 4 - Tipos primitivos, Operadores Booleanos
     - Exercício 5 - Loop For e While + tarefa números decrescentes de 10 entre 100 e -100
+
+- Aula 3 - Manipulação de Variáveis
+    - Exercício 5 - Mais um exemplo de loop para cáculo da raiz quadrada através do for
+    - Exercício 6 - Manipulação de Variáveis

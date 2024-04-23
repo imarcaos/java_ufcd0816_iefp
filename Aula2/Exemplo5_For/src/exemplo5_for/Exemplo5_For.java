@@ -42,9 +42,19 @@ public class Exemplo5_For {
         System.out.println("---------- Tarefa 1 ----------");
         int c=100;
         while (c>=-100) {
-            System.out.println("Valor Descrescente de 10: " + c);
+            System.out.println("Valor Decrescente de 10: " + c);
             c-=10;
         }
-    }
+        
+        // aula 3 - 2024-04-23
+        System.out.println("------------------------");
+        float x=100.0f;
+        float raiz;
+        for (raiz = 0.0f;raiz*raiz<(x-0.01f);raiz=raiz+0.01f) {
+            System.out.println(raiz);
+        }
+        System.out.println("A raiz e " + raiz);
+        
+    } // end main
     
-}
+} // end class
