@@ -23,8 +23,12 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Exercício 7 - Strings, tarefa substring espaço em branco do nome e sobrenome upperCase primeira letra
     - Exercício 8 - InputStreamReader
 - Aula 4 - Leitura e escrita de dados na tela
-    - Exercício 9 - Calculadora Simples com loop for: (CalculadoraSimples.java)
+    - Exercício 8.1 - Calculadora Simples com loop for: (CalculadoraSimples.java)
         - para apresentar os valores das 4 operações
         - pedir ao usuário os 2 valores a cada loop
     - Tarefa 1 - Verificar se um número é primo - (NPrimo.java)
+- Aula 5 - Classes
+    - Execício 9 - Criando Package e Classe
+        - veiculos: Bicicleta, Triciclo
+        - veiculoscommotor: BicicletaComMotor, TricicloComMotor
 
