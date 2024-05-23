@@ -38,4 +38,5 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Por defeito: disponível a nível do package
     - Private: só na classe
     ![Acesso Atributo e Métodos](/classe-acesso-atributo-metodos.png)
+    - Criamos um projeto novo usando JFrame
 

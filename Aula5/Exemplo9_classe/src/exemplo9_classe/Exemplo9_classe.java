@@ -4,6 +4,8 @@
  */
 package exemplo9_classe;
 
+//import java.util.Scanner;
+
 import veiculos.Bicicleta;
 import veiculos.Triciclo;
 
@@ -19,10 +21,13 @@ public class Exemplo9_classe {
         Bicicleta b1 = new Bicicleta();
         //b1.cor = "Azul bebé";
         
-        Triciclo t1 = new Triciclo();
-        //BicicletaComMotor bm1 = new BicicletaComMotor();
+        Triciclo t1 = new Triciclo();        
         t1.distanciaEntreEixos = 3;
         t1.cor= 2;
+        
+        t1.DefinirAtributo1(25);
+        System.out.println(t1.ObterAtributo());
+        //BicicletaComMotor bm1 = new BicicletaComMotor();
     }
     
 }

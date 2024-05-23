@@ -15,11 +15,24 @@ public class Triciclo {
     
     private int atributo1;
     
+    // criado pelo formador
     public int ObterAtributo() {
         return atributo1;
     }
     
+    // criado pelo formador
     public void DefinirAtributo1 (int a) {
         atributo1 = a;
     }
+    
+    // gerado de forma automática pelo getter and setter
+    public int getAtributo1() {
+        return atributo1;
+    }
+
+    // gerado de forma automática pelo getter and setter
+    public void setAtributo1(int atributo1) {
+        this.atributo1 = atributo1;
+    }    
+    
 }
