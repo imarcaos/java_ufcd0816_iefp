@@ -7,8 +7,9 @@ package veiculos;
 /**
  *
  * @author Marcos Melo
+ * 
  */
 public class Triciclo {
-    public int distaciaEntreEixos;
-    
+    protected int distanciaEntreEixos;
+    public int cor;
 }

@@ -4,19 +4,25 @@
  */
 package exemplo9_classe;
 
+import veiculos.Bicicleta;
+import veiculos.Triciclo;
+
 /**
- *
  * @author Marcos Melo
- * Aula5
- * 2024/05/20
+ * Aula6
+ * criado: 2024/05/20
+ * Atualizado_ 2027/05/23
  */
 public class Exemplo9_classe {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Bicicleta b1 = new Bicicleta();
+        //b1.cor = "Azul bebé";
+        
+        Triciclo t1 = new Triciclo();
+        //BicicletaComMotor bm1 = new BicicletaComMotor();
+        t1.distanciaEntreEixos = 3;
+        t1.cor= 2;
     }
     
 }

@@ -7,13 +7,14 @@ package veiculos;
 /**
  *
  * @author Marcos Melo
+ * 
  */
 public class Bicicleta {
     public String cor;
     
     String VeTriciclo () {
         Triciclo t1 = new Triciclo();
-        
+        t1.distanciaEntreEixos = 3;        
         return "www"; 
     }
 }

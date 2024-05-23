@@ -31,4 +31,10 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Execício 9 - Criando Package e Classe
         - veiculos: Bicicleta, Triciclo
         - veiculoscommotor: BicicletaComMotor, TricicloComMotor
+- Aula 6 - Classes Heranças
+    - Exercício 9 continuação
+    - default - Se retirarmos o public ela fica disponível somente no package em que ela está.
+    - public - ela ficará disponível em todo o projeto
+    - private - na própria classe.
+    - protect - acessível no próprio package e filhos (extends)
 
