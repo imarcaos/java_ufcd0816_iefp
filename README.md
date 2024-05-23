@@ -31,10 +31,11 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Execício 9 - Criando Package e Classe
         - veiculos: Bicicleta, Triciclo
         - veiculoscommotor: BicicletaComMotor, TricicloComMotor
-- Aula 6 - Classes Heranças
+- Aula 6 - Classes Heranças - Acesso atributos e métodos
     - Exercício 9 continuação
-    - default - Se retirarmos o public ela fica disponível somente no package em que ela está.
-    - public - ela ficará disponível em todo o projeto
-    - private - na própria classe.
-    - protect - acessível no próprio package e filhos (extends)
+    - Public: disponível em todo o projecto
+    - Protected: disponível a nível do package e em classes filhas
+    - Por defeito: disponível a nível do package
+    - Private: só na classe
+    ![Acesso Atributo e Métodos](/classe-acesso-atributo-metodos.png)
 

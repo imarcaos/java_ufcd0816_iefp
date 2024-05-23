@@ -4,10 +4,15 @@
  */
 package veiculoscommotor;
 
+import veiculos.Triciclo;
+
 /**
  *
  * @author Marcos Melo
  */
-public class TricicloComMotor {
+public class TricicloComMotor extends Triciclo {
+    int lixo = distanciaEntreEixos;
+    
+    
     
 }
