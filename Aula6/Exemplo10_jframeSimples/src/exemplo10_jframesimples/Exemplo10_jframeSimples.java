@@ -13,6 +13,14 @@ public class Exemplo10_jframeSimples {
     public static void main(String[] args) {
         
         (new JFrame_form()).setVisible(true);
+                
+//        for (int i=0; i<5; i++) {
+//            JFrame_form f1 = new JFrame_form();
+//            f1.setVisible(true);
+//            int x = (int) (Math.random()*1000);
+//            int y = (int) (Math.random()*500);
+//            f1.setLocation(x, y);
+//        }
     }
     
 }

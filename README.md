@@ -39,4 +39,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Private: só na classe
     ![Acesso Atributo e Métodos](/classe-acesso-atributo-metodos.png)
     - Criamos um projeto novo usando JFrame
-
+- Aula 7 - JFrame - aprendendo a usar os componentes
