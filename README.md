@@ -40,3 +40,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
     ![Acesso Atributo e Métodos](/classe-acesso-atributo-metodos.png)
     - Criamos um projeto novo usando JFrame
 - Aula 7 - JFrame - aprendendo a usar os componentes
+- Aula 8 - JFrame - construção de uma calculadora simples
