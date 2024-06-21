@@ -2,15 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package exemplo13b_calculadoracombotoes;
+package exemplo14_conversor;
 
 /**
  *
  * @author Marcos Melo
- * Aula 8 - 2024/06/03
- * Aula 9 - 2024/06/05 - Continuando a aula
+ * Aula 10
+ * Data 2024/06/19
+ * 
  */
-public class Exemplo13b_CalculadoraComBotoes {
+public class Exemplo14_Conversor {
 
     /**
      * @param args the command line arguments

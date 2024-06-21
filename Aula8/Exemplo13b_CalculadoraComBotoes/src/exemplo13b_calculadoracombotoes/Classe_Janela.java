@@ -19,6 +19,13 @@ public class Classe_Janela extends javax.swing.JFrame {
     public Classe_Janela() {
         initComponents();
     }
+        
+    private void LimparSeNecessario() {
+        if(limpar) {
+            jTextFieldResultado.setText("");
+            limpar = false;
+        }
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -85,7 +92,7 @@ public class Classe_Janela extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("SimSun", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel2.setText("CALCULADORA MALUCA");
+        jLabel2.setText("CALCULADORA SIMPLES");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -107,7 +114,7 @@ public class Classe_Janela extends javax.swing.JFrame {
                                     .addComponent(jButtonMais, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addComponent(jTextFieldResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 317, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(66, 66, 66)
+                        .addGap(56, 56, 56)
                         .addComponent(jLabel2)))
                 .addContainerGap(27, Short.MAX_VALUE))
         );
@@ -144,10 +151,12 @@ public class Classe_Janela extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton01ActionPerformed
+        LimparSeNecessario();
         jTextFieldResultado.setText(jTextFieldResultado.getText()+"1");
     }//GEN-LAST:event_jButton01ActionPerformed
 
     private void jButton02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton02ActionPerformed
+        LimparSeNecessario();
         jTextFieldResultado.setText(jTextFieldResultado.getText()+"2");
     }//GEN-LAST:event_jButton02ActionPerformed
 
@@ -163,7 +172,6 @@ public class Classe_Janela extends javax.swing.JFrame {
         jTextFieldResultado.setText(String.valueOf(soma));
         limpar = true;
     }//GEN-LAST:event_jButtonIgualActionPerformed
-
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

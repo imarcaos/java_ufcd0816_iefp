@@ -41,3 +41,6 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Criamos um projeto novo usando JFrame
 - Aula 7 - JFrame - aprendendo a usar os componentes
 - Aula 8 - JFrame - construção de uma calculadora simples
+- Aula 9 - JFrame - Continuação do trabalho da Calculadora Simples
+    - Trabalho criar uma Calculadora Completa (Todas as operações Básicas)
+- Aula 10 - Projeto conversor de moedas
