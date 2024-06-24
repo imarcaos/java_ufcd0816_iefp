@@ -44,3 +44,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 9 - JFrame - Continuação do trabalho da Calculadora Simples
     - Trabalho criar uma Calculadora Completa (Todas as operações Básicas)
 - Aula 10 - Projeto conversor de moedas
+- Aula 11 - JFrame Palete de Cores exemplo15,  Contador em loop exemplo 16.
