@@ -45,3 +45,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Trabalho criar uma Calculadora Completa (Todas as operações Básicas)
 - Aula 10 - Projeto conversor de moedas
 - Aula 11 - JFrame Palete de Cores exemplo15,  Contador em loop exemplo 16.
+- Aula 12 - JFrame - ex17 animação imagem, ex18 conexão mysql
