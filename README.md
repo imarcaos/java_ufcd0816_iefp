@@ -46,3 +46,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 10 - Projeto conversor de moedas
 - Aula 11 - JFrame Palete de Cores exemplo15,  Contador em loop exemplo 16.
 - Aula 12 - JFrame - ex17 animação imagem, ex18 conexão mysql
+- Aula 13 - Adicionado o JFrame Encomendas e criação da tabela encomendas ex18

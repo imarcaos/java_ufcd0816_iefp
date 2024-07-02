@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package exemplo19_clientescombasededados;
 
 import java.sql.Connection;
@@ -42,6 +38,7 @@ public class Clientes extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 255, 204));
 
         jButton1.setText("Ver Clientes");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -112,46 +109,54 @@ public class Clientes extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+
         try {
-            Connection SQlCnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root");            
+            Connection SQlCnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root");
             System.out.print("Ligação com sucesso");
             Statement stat1 = SQlCnn.createStatement();
             ResultSet resultadoQuery = stat1.executeQuery("Select * From encomendas.clientes");
-            
-            String texto="";
-            while(resultadoQuery.next()) 
-                texto= texto + resultadoQuery.getString("nome")
-                + "\t"+ resultadoQuery.getString("morada")
-                +"\n";
-            
+
+            String texto = "";
+            while (resultadoQuery.next()) {
+                texto = texto + resultadoQuery.getString("nome")
+                        + "\t" + resultadoQuery.getString("morada")
+                        + "\n";
+            }
+
             jTextArea1.setText(texto);
-        
-        } catch (Exception ex) {            
-            System.out.print("Mariadb Server - problema:"+ex);
+
+        } catch (Exception ex) {
+            System.out.print("Mariadb Server - problema:" + ex);
         }
-          
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        
-        try {
-            Connection SQlCnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root");            
-            System.out.print("Ligação com sucesso");            
-            
-            String campo1=jTextField1.getText();
-            String campo2=jTextField2.getText();
 
-            PreparedStatement stat1=SQlCnn.prepareStatement("insert into encomendas.clientes values(?,?)");
+        try {
+            Connection SQlCnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root");
+            System.out.print("Ligação com sucesso");
+
+            String campo1 = jTextField1.getText();
+            String campo2 = jTextField2.getText();
+
+            PreparedStatement stat1 = SQlCnn.prepareStatement("insert into encomendas.clientes values(?,?)");
             stat1.setString(1, campo1);
             stat1.setString(2, campo2);
             stat1.executeUpdate();
-        
-        } catch (Exception ex) {            
-            System.out.print("Mariadb Server - problema:"+ex);
-        }       
-        
-        
+            
+            jTextField1.setText("");
+            jTextField2.setText("");
+            
+            jButton1.doClick();
+            
+            Exemplo19_ClientesComBaseDeDados.enc.PopularComboBox();
+
+        } catch (Exception ex) {
+            System.out.print("Mariadb Server - problema:" + ex);
+        }
+
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
