@@ -47,3 +47,11 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 11 - JFrame Palete de Cores exemplo15,  Contador em loop exemplo 16.
 - Aula 12 - JFrame - ex17 animação imagem, ex18 conexão mysql
 - Aula 13 - Adicionado o JFrame Encomendas e criação da tabela encomendas ex18
+- Aula 14 - Aula Final da UFCD
+    - Um JFrame Funcionarios e BD : Funcionarios
+        - BD: funcionarios, Tabela: dadosfuncionarios, Colunas: NIF(PK) , Nome e Obs.
+        - 2 JFrames: Menu, Inserir e Listar Funcionarios.
+    - Trabalho Final Teste Utentes e BD: Utentes
+        - BD: utentes, Tabela: dadosutentes, Colunas: NISS (PK), Nome e Morada
+        - 4 JFrames: Menu, Inserir, Listar e Procurar.
+- FIM DA UFCD 0816
